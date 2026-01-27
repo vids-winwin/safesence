@@ -720,7 +720,7 @@ export default function Dashboard() {
               Welcome to SafeSense!
             </h2>
             <p className={`text-lg mb-8 ${darkMode ? "text-slate-300" : "text-slate-600"}`}>
-              You don't have any devices or sensors yet. Get started by adding your first device.
+              You do not have any devices or sensors yet. Get started by adding your first device.
             </p>
             <button
               onClick={() => router.push('/devices/add')}

@@ -944,7 +944,7 @@ export default function Home() {
                   {error && <p style={styles.error}>{error}</p>}
                   <div style={{ textAlign: 'center', marginTop: '1rem' }}>
                     <p style={{ ...styles.subtitle, fontSize: '0.875rem', marginBottom: '0.5rem' }}>
-                      Didn't receive the code?
+                      Did not receive the code?
                     </p>
                     <button
                       onClick={handleResendOTP}
@@ -988,7 +988,7 @@ export default function Home() {
               <>
             <h2 style={styles.modalTitle}>Reset Password</h2>
                 <p style={{ ...styles.subtitle, marginBottom: '1rem', fontSize: '0.875rem' }}>
-                  Enter your email address and we'll send you a verification code to reset your password.
+                  Enter your email address and we will send you a verification code to reset your password.
                 </p>
             <form onSubmit={handleForgotPassword} style={styles.form}>
                   <label style={styles.label}>Email</label>
@@ -1068,7 +1068,7 @@ export default function Home() {
                   </button>
                   <div style={{ textAlign: 'center', marginTop: '1rem' }}>
                     <p style={{ ...styles.subtitle, fontSize: '0.875rem', marginBottom: '0.5rem' }}>
-                      Didn't receive the code?
+                      Did not receive the code?
                     </p>
                     <button
                       type="button"
